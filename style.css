@@ -7,13 +7,15 @@
 body{
     margin: 0;
     background: rgb(94,223,232);
-background: linear-gradient(180deg, #5edfe8 0%, #965cf4 100%);
-min-height: 100vh;
+    background: linear-gradient(180deg, #5edfe8 0%, #965cf4 100%);
+    min-height: 100vh;
 }
 
+.pag{
+    min-height: 100vh;
+}
 
 .header{
-
     background-color: blanchedalmond;
 }
 
@@ -30,19 +32,27 @@ min-height: 100vh;
     top: 0;
 }
 
+.blocoTwo {
+    text-align: center;
+    margin: 10%;
+}
 
+.blocoTwo ul{
+    line-height: 28px;
+}
 
+.blocothree{
+display: flex;
 
-
-
-
-
-
-
-
+}
 
 footer{
     text-align: center;
-    bottom: 0;
+    margin: 10%;
 
 }
+
+
+
+
+
