@@ -1,0 +1,9 @@
+#sobremim{
+    display: flex;
+    padding-top: 5%;
+}
+#sobremim img{
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+}
