@@ -1,8 +1,9 @@
+import "./container.css"
 import Header from "../header/Header";
 
 const Container = () => {
     return (
-        <div>
+        <div className="container">
             <Header/>
         </div>
     )

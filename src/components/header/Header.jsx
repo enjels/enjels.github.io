@@ -2,17 +2,22 @@
 import './Header.css'
 function Header() {
   return (
-    <header>
+    <header id='header'>
       <h1>Virgílio César</h1>
       <nav>
         <ul>
           <li>
-            <a href="#Projetos">Projetos</a>
+            <a href="#projetos">Projetos</a>
+          </li>
+          <li>
+            <a href="#formação">Formação</a>
+          </li>
+          <li>
+            <a href="#contato">Contato</a>
           </li>
         </ul>
       </nav>
     </header>
-    
   );
 }
 
