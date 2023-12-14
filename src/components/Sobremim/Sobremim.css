@@ -1,31 +1,37 @@
 #section-sobremim{
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
+padding: 50px 0;
+
 }
-#sobremim{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    max-width: 60%;
+.sobremim{
+    padding: 4% 0;
+    max-width: 50%;
     gap: 5%;
+    
 }
-#sobremim img{
+
+.dados-perfil{
+text-align: center;
+}
+ .img-sobremim{
     width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 100%;
 }
 hr{
-   
     align-self:center;
     border-color: rgba(0, 168, 168, 0.87) ;
 }
 
 .Redes-sociais{
-display: flex;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 .Redes-sociais img{
     width: 50px !important;
     height: 50px !important;
+    margin-right: 10px;
 }

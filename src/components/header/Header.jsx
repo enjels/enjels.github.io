@@ -3,7 +3,7 @@ import './Header.css'
 function Header() {
   return (
     <header id='header'>
-      <h1>Virgílio César</h1>
+      
       <nav>
         <ul>
           <li>

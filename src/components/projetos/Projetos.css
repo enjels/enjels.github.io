@@ -1,10 +1,7 @@
-#container-pj{
-    display: flex;
-    justify-content: center;
-    
+
+#section-pj h1{
+    margin-left: 5%;
 }
-
-
 #container-pj ul li{
     margin-top: 2%;
     list-style: none;
@@ -13,11 +10,11 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 5%;
+    gap: 2.5%;
 }
 
 .img-pj,.ul-pj li{
-    width: 500px;
+    width: 400px;
     border-radius: 25px;
 }
 .img-pj:hover{
