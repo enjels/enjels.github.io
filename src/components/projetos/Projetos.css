@@ -1,18 +1,27 @@
-#container-pj ul li{
-    display: flex;
-    margin-top: 10px;
-}
-
-img{
-    width: 500px;
-    border-radius: 25px;
-}
-img:hover{
-    outline: 3px solid rgb(81, 255, 0);
-    outline-offset: -3px;
-    filter: brightness(75%)
-}
 #container-pj{
     display: flex;
     justify-content: center;
+    
+}
+
+
+#container-pj ul li{
+    margin-top: 2%;
+    list-style: none;
+}
+.ul-pj{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.img-pj,.ul-pj li{
+    width: 500px;
+    border-radius: 25px;
+}
+.img-pj:hover{
+    outline: 3px solid rgb(81, 255, 0);
+    outline-offset: -3px;
+    filter: brightness(75%)
 }

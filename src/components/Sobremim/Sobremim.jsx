@@ -1,9 +1,12 @@
 import "./Sobremim.css";
 const Sobremim = () => {
-    return (
-      <>
+  return (
+    <>
+      <section id="section-sobremim">
         <div id="sobremim">
-          <img src="../src/assets/img/virgilio.webp" alt="" />
+          <div>
+            <img src="../src/assets/img/virgilio.webp" alt="" />
+          </div>
           <div>
             <h2>
               DESENVOLVEDOR <br /> FRONT END.
@@ -14,7 +17,7 @@ const Sobremim = () => {
               sempre em busca de novas oportunidades para aperfeiçoar minhas
               habilidade e trabalhar em projetos desafiadores. Meu objetivo é
               aprender e crescer na área. Curso{" "}
-              <b>Análise e Desenvolvimento de Sistema</b>
+              <b>Análise e Desenvolvimento de Sistema </b>
               pela Unifatecie. Principais tecnologias:
               <b>Html, Css, JavaScript, React, git, figma e Photoshop</b>
             </p>
@@ -31,9 +34,10 @@ const Sobremim = () => {
             </div>
           </div>
         </div>
-        <hr />
-      </>
-    );
+      </section>
+      <hr />
+    </>
+  );
 };
 
 export default Sobremim;

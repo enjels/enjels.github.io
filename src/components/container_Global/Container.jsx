@@ -5,7 +5,7 @@ import Projetos from "../projetos/Projetos";
 
 const Container = () => {
     return (
-      <div className="container">
+      <div id="main-container">
         <Header/>
         <Sobremim/>
         <Projetos/>
