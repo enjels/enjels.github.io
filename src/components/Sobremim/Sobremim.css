@@ -21,3 +21,11 @@ hr{
     align-self:center;
     border-color: rgba(0, 168, 168, 0.87) ;
 }
+
+.Redes-sociais{
+display: flex;
+}
+.Redes-sociais img{
+    width: 50px !important;
+    height: 50px !important;
+}

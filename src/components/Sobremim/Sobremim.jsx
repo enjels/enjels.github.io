@@ -19,17 +19,19 @@ const Sobremim = () => {
               aprender e crescer na área. Curso{" "}
               <b>Análise e Desenvolvimento de Sistema </b>
               pela Unifatecie. Principais tecnologias:
-              <b>Html, Css, JavaScript, React, git, figma e Photoshop</b>
+              <b> Html, Css, JavaScript, React, git, figma e Photoshop</b>
             </p>
-            <div>
-              <a href="#" target="_blank">
-                <img src="" alt="Currículo" />
+            <div className="Redes-sociais">
+              <a href="#" target="blank">
+                <img className="img-social" src="..\src\assets\img\dowload.png" alt="Currículo" />
               </a>
-              <a href="#" target="_blank">
-                <img src="" alt="GitHub" />
+              <a href="https://github.com/enjels" target="blank">
+                <img src="..\src\assets\GitHub.svg" alt="GitHub" />
               </a>
-              <a href="#" target="_blank">
-                <img src="" alt="Linkedin" />
+              <a
+                href="https://www.linkedin.com/in/virg%C3%ADlio-c%C3%A9sar/"
+                target="blank">
+                <img src="..\src\assets\LinkedIn.svg" alt="Linkedin" />
               </a>
             </div>
           </div>
